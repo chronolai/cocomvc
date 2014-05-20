@@ -1,0 +1,12 @@
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-l
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteRule ^(.*)$ index.php/$1
+RewriteRule ^$ index.php/$1
+
+Options -Indexes
+php_flag magic_quotes_gpc off
+php_flag register_globals off
+php_flag short_open_tag on
