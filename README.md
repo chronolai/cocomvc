@@ -8,7 +8,10 @@ Simple PHP MVC Framwork
 
 1. Create new project.
 
-	[Download](https://github.com/chronolai/cocomvc/archive/master.zip) and unzip to /YOUR/PATH or
+	[Download](https://github.com/chronolai/cocomvc/archive/master.zip) and unzip to /YOUR/PATH
+	
+	or
+	
 	```git clone https://github.com/chronolai/cocomvc.git /YOUR/PATH```
 
 2. Modify `config.php` to change your database config.
