@@ -16,10 +16,12 @@ class BlogController extends Controller
 		$blog = new BlogModel();
 		$blog->load($id);
 		$this->assign("blog", $blog->getContains());
+		$this->setTitle($blog->title);
 		$this->render();
 	}
 	public function form()
 	{
+		$this->setTitle($this->lang['blog_create']);
 		$this->render();
 	}
 	public function create()
