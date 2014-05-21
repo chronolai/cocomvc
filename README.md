@@ -12,7 +12,9 @@ Simple PHP MVC Framwork
 	
 	or
 	
-	```git clone https://github.com/chronolai/cocomvc.git /YOUR/PATH```
+	```
+	git clone https://github.com/chronolai/cocomvc.git /YOUR/PATH
+	```
 
 2. Modify `config.php` to change your database config.
 	```php
