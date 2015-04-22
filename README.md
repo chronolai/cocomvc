@@ -1,7 +1,7 @@
 CocoMVC
 =======
 
-Simple PHP MVC Framwork
+Simple PHP MVC Framework
 
 ## What is it
 CocoMVC 是一個非常簡單輕便的 MVC Framework. 相較於功能強大的 Framework 來說越多功能即代表了不易上手和許多限制, 對於小型接案者許多功能是用不到的, 只是增加專案無謂的體積與反應速度. 而 CocoMVC 是在作者接案經驗下所誕生的產物, 日後也會將其應用在實務上, 並持續對 CocoMVC 改進. 透過版本控制軟體與網頁前端視覺設計師合作是相當愉快的, 而在網頁前端視覺設計師方面也只需學會基礎的 PHP 即可得心應手. 而對於想要學習 PHP MVC 的人 CocoMVC 也是相當容易了解, 因為程式碼實在太少了!
